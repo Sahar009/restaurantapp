@@ -14,7 +14,7 @@
                     <img src="{{asset('images')}}/{{$food->image}}" width="200" height="155">
                     <p class="text-center">
                     	{{$food->name}}
-                        <span>${{$food->price}}</span>
+                        <span>₦{{$food->price}}</span>
                     	
 
 
